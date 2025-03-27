@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 
@@ -48,6 +49,7 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 10),
               OutlinedButton(
                 onPressed: () async {
+                  SmartDialog.showLoading(msg: 'Subiendo imagen...');
                   final urlCloudinary = Uri.parse(
                     'https://api.cloudinary.com/v1_1/dfoqhww2b/upload',
                   );
@@ -66,6 +68,7 @@ class _HomePageState extends State<HomePage> {
                     final json = jsonDecode(responseData);
                     setState(() {
                       url = json['url'];
+                      SmartDialog.dismiss();
                     });
                   } else {
                     url = 'Error al subir imagen';

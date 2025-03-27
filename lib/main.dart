@@ -1,5 +1,6 @@
 import 'package:app_camara/screens/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +17,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue.shade300),
       ),
-      routes: {'/': (context) => const HomePage()},
-      initialRoute: '/',
+      // routes: {'/': (context) => const HomePage()},
+      // initialRoute: '/',
+      home: const HomePage(),
+      navigatorObservers: [FlutterSmartDialog.observer],
+      builder: FlutterSmartDialog.init(),
     );
   }
 }
