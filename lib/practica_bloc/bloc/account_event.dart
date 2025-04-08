@@ -15,5 +15,4 @@ class AddTransaction extends AccountEvent {
   const AddTransaction(this.transaction);
 }
 
-//Se agregara la practica para el miercoles
-//Debe funcionar
+//Se puede crear un evento para eliminar una transacción y debe de quedar la practica para el Miercole
