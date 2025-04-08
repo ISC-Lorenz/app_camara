@@ -3,3 +3,4 @@
 //Como el saldo, el nombre de la cuenta, el id de la cuenta, etc
 //Considerar el numero CLABE de cuenta del cliente adecuado
 //Se aplico RESET SOFT HEAD x2
+//Pero tuve que realizar esta modificación por que QA me lo solicito
