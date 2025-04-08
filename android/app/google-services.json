@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "101076935577",
+    "project_id": "moviles-abfbc",
+    "storage_bucket": "moviles-abfbc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101076935577:android:d719afedb5af37ec866908",
+        "android_client_info": {
+          "package_name": "com.example.app_camara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPtPJHDwL79otnPj8HgFnDGQZ243FD-Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101076935577:android:17a4ab02aa51510d866908",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPtPJHDwL79otnPj8HgFnDGQZ243FD-Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101076935577:android:85d8718345a98522866908",
+        "android_client_info": {
+          "package_name": "com.example.moviles_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPtPJHDwL79otnPj8HgFnDGQZ243FD-Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
